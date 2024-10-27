@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contents {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.contents > * {
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (orientation: portrait) {
+  .contents {
+    display: unset;
+  }
+
+  .buttons {
+    flex-direction: row;
+    gap: unset;
+    align-items: unset;
+    justify-content: space-between;
+  }
+
+  .buttons > .button {
+    padding: 0.5vh;
+    width: 50%;
+  }
+
+  .buttons > .button > .text {
+    writing-mode: horizontal-tb;
+    font-size: min(8vh, 8vw);
+  }
+}

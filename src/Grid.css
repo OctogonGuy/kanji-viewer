@@ -1,0 +1,32 @@
+.grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(5, min(20vh, 20vw));
+    direction: rtl;
+    max-width: 100vh;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 400px) and (orientation: portrait) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 200px) and (orientation: portrait) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

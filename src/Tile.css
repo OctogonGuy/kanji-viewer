@@ -1,0 +1,80 @@
+.tile {
+    position: relative;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tile > .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 20%;
+    user-select: none;
+}
+
+.tile > .text {
+    position: absolute;
+    text-align: center;
+    font-size: min(10vh, 10vw);
+    height: min(10vh, 10vw);
+    line-height: 1em;
+    overflow: hidden;
+    cursor: pointer;
+    transition: font-size 0.15s, height 0.15s;
+}
+
+.tile > .text:hover {
+    font-size: min(15vh, 15vw);
+    height: min(15vh, 15vw);
+}
+
+@media screen and (max-width: 800px) {
+    .tile > .text {
+        font-size: min(12.5vh, 12.5vw);
+        height: min(12.5vh, 12.5vw);
+    }
+
+    .tile > .text:hover {
+        font-size: min(18.75vh, 18.75vw);
+        height: min(18.75vh, 18.75vw);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tile > .text {
+        font-size: min(16.67vh, 16.67vw);
+        height: min(16.67vh, 16.67vw);
+    }
+
+    .tile > .text:hover {
+        font-size: min(25vh, 25vw);
+        height: min(25vh, 25vw);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tile > .text {
+        font-size: min(25vh, 25vw);
+        height: min(25vh, 25vw);
+    }
+
+    .tile > .text:hover {
+        font-size: min(37.5vh, 37.5vw);
+        height: min(37.5vh, 37.5vw);
+    }
+}
+
+@media screen and (max-width: 200px) {
+    .tile > .text {
+        font-size: min(50vh, 50vw);
+        height: min(50vh, 50vw);
+    }
+
+    .tile > .text:hover {
+        font-size: min(75vh, 75vw);
+        height: min(75vh, 75vw);
+    }
+}
