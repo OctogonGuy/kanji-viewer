@@ -23,6 +23,7 @@ const fish = [
   new Item("鰈", "かれい", "flounder", "", "karei.png"),
   new Item("鮑", "あわび", "abalone", "", "awabi.png"),
   new Item("鯏", "あさり", "short-neck clam", "", "asari.png"),
+  new Item("鰐", "わに", "alligator/crocodile", "", "wani.png"),
 ]
 
 const birds = [
@@ -44,6 +45,10 @@ const birds = [
   new Item("鴷", "きつつき", "woodpecker", "", "kitsutsuki.png"),
   new Item("鷚", "ひばり", "eurasian skylark", "", "hibari.png"),
   new Item("鵯", "ひよどり", "bulbul", "", "hiyodori.png"),
+  new Item("鵙", "もず", "bull-headed shrike", "", "mozu.png"),
+  new Item("鴬", "うぐいす", "japanese bush warbler", "", "uguisu.png"),
+  new Item("鶲", "ひたき", "old world flycatcher", "", "hitaki.png"),
+  new Item("鴉", "からす", "crow", "", "karasu.png"),
 ]
 
 export { fish, birds }
