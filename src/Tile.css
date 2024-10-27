@@ -21,9 +21,13 @@
     font-size: min(10vh, 10vw);
     height: min(10vh, 10vw);
     line-height: 1em;
-    overflow: hidden;
     cursor: pointer;
     transition: font-size 0.15s, height 0.15s;
+    writing-mode: vertical-rl;
+}
+
+.tile > .text .reading {
+    font-size: 0.2em;
 }
 
 .tile > .text:hover {
