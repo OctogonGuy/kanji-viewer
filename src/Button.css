@@ -18,11 +18,12 @@
 }
 
 .button > .text {
+    writing-mode: vertical-rl;
     line-height: 1em;
 }
 
 .category.button {
-    aspect-ratio: 4/3;
+    aspect-ratio: 3/4;
     width: 20%;
     border-radius: max(2vh, 2vw);
 }
@@ -33,12 +34,10 @@
 
 .category.button > .text {
     position: absolute;
-    font-size: min(10vh, 10vw);
-    height: min(10vh, 10vw);
+    font-size: max(10vh, 10vw);
 }
 
 .back.button, .font.button {
-    writing-mode: vertical-rl;
     padding: 2em 1em;
     border-radius: max(0.5vh, 0.5vw);
     font-size: min(2vh, 2vw);
