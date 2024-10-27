@@ -34,20 +34,14 @@ body {
     display: unset;
   }
 
+  .menu {
+    flex-direction: column;
+  }
+
   .buttons {
     flex-direction: row;
     gap: unset;
     align-items: unset;
     justify-content: space-between;
-  }
-
-  .buttons > .button {
-    padding: 0.5vh;
-    width: 100%;
-  }
-
-  .buttons > .button > .text {
-    writing-mode: horizontal-tb;
-    font-size: min(8vh, 8vw);
   }
 }

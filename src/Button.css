@@ -34,11 +34,30 @@
 
 .category.button > .text {
     position: absolute;
-    font-size: max(10vh, 10vw);
+    font-size: min(10vh, 10vw);
 }
 
-.back.button, .font.button {
+.back.button {
     padding: 2em 1em;
     border-radius: max(0.5vh, 0.5vw);
     font-size: min(2vh, 2vw);
+}
+
+@media screen and (orientation: portrait) {
+  .category.button {
+    aspect-ratio: 3/4;
+    height: 20%;
+    width: unset;
+    border-radius: max(2vh, 2vw);
+  }
+
+  .back.button {
+    padding: 0.5vh;
+    width: 100%;
+  }
+
+  .back.button > .text {
+    writing-mode: horizontal-tb;
+    font-size: min(8vh, 8vw);
+  }
 }
