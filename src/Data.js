@@ -51,4 +51,31 @@ const birds = [
   new Item("鴉", "からす", "crow", "karasu.png", "https://ja.wikipedia.org/wiki/カラス"),
 ]
 
-export { fish, birds }
+const insects = [
+  new Item("蟎", "だに", "tick", "dani.png", "https://ja.wikipedia.org/wiki/ダニ"),
+  new Item("蟷", "かまきり", "praying mantis", "kamakiri.png", "https://ja.wikipedia.org/wiki/カマキリ"),
+  new Item("蜙", "きりぎりす", "japanese katydid", "kirigirisu.png", "https://ja.wikipedia.org/wiki/キリギリス"),
+  new Item("蝉", "せみ", "cicada", "semi.png", "https://ja.wikipedia.org/wiki/セミ"),
+  new Item("蜓", "やんま", "darner", "yanma.png", "https://ja.wikipedia.org/wiki/ヤンマ"),
+  new Item("蝗", "いなご", "grasshopper", "inago.png", "https://ja.wikipedia.org/wiki/イナゴ"),
+  new Item("蚋", "ぶゆ", "black fly", "buyu.png", "https://ja.wikipedia.org/wiki/ブユ"),
+  new Item("蟫", "しみ", "silverfish", "shimi.png", "https://ja.wikipedia.org/wiki/シミ目"),
+  new Item("蝸", "かたつむり", "snail", "katatsumuri.png", "https://ja.wikipedia.org/wiki/カタツムリ"),
+  new Item("蚯", "みみず", "earthworm", "mimizu.png", "https://ja.wikipedia.org/wiki/ミミズ"),
+  new Item("蜘", "くも", "spider", "kumo.png", "https://ja.wikipedia.org/wiki/クモ"),
+  new Item("蜂", "はち", "bee/wasp/hornet", "hachi.png", "https://ja.wikipedia.org/wiki/ハチ"),
+  new Item("虻", "あぶ", "horsefly", "abu.png", "https://ja.wikipedia.org/wiki/アブ"),
+  new Item("蟠", "わらじむし", "wood louse", "warajimushi.png", "https://ja.wikipedia.org/wiki/ワラジムシ"),
+  new Item("螻", "けら", "mole cricket", "kera.png", "https://ja.wikipedia.org/wiki/ケラ"),
+  new Item("蛾", "が", "moth", "ga.png", "https://ja.wikipedia.org/wiki/ガ"),
+  new Item("蝶", "ちょう", "butterfly", "chou.png", "https://ja.wikipedia.org/wiki/チョウ"),
+  new Item("蠅", "はえ", "fly", "hae.png", "https://ja.wikipedia.org/wiki/ハエ"),
+  new Item("蜈", "むかで", "centipede", "mukade.png", "https://ja.wikipedia.org/wiki/ムカデ"),
+  new Item("蚊", "か", "mosquito", "ka.png", "https://ja.wikipedia.org/wiki/カ"),
+  new Item("蠍", "さそり", "scorpion", "sasori.png", "https://ja.wikipedia.org/wiki/サソリ"),
+  new Item("蟻", "あり", "ant", "ari.png", "https://ja.wikipedia.org/wiki/アリ"),
+  new Item("蛍", "ほたる", "firefly", "hotaru.png", "https://ja.wikipedia.org/wiki/ホタル"),
+  new Item("蚕", "かいこ", "silkworm", "kaiko.png", "https://ja.wikipedia.org/wiki/カイコ"),
+]
+
+export { fish, birds, insects }
