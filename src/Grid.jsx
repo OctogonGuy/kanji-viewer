@@ -11,7 +11,7 @@ function Grid(props) {
   return (
     <div className="grid">
       {props.items.map((item) => {
-        return <Tile key={item.kanji} text={item.kanji} reading={item.reading} background={item.imageFilename} />
+        return <Tile key={item.kanji} text={item.kanji} reading={item.reading} wikipediaArticle={item.wikipediaArticle} background={item.imageFilename} />
       })}
     </div>
   )

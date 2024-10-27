@@ -17,6 +17,7 @@
 
 .tile > .text {
     position: absolute;
+    color: initial;
     text-align: center;
     font-size: min(10vh, 10vw);
     height: min(10vh, 10vw);
